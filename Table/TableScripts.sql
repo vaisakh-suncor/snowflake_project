@@ -1,5 +1,4 @@
-create schema edw;
-use schema edw;
+
 create or replace TABLE DIMWELL (
 	WELLSID NUMBER(38,0) NOT NULL autoincrement start 1 increment 1 order COMMENT 'identity',
 	WELLGUID VARCHAR(16777216) NOT NULL,
